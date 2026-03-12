@@ -6,7 +6,7 @@ int main()
 {
     // FrameFifo fifo;
 
-std::cout << "hello" << std::endl;
+
     std::shared_ptr<FrameFifo> f = std::make_shared<FrameFifo>();
     std::cout << f.use_count() << std::endl;
     {
